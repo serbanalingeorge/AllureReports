@@ -1,0 +1,71 @@
+{
+  "time" : {
+    "start" : 1544018168181,
+    "stop" : 1544018198177,
+    "duration" : 29996
+  },
+  "testSuites" : [ {
+    "uid" : "7a11752e8fb2079b",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test",
+    "time" : {
+      "start" : 1544018168181,
+      "stop" : 1544018198177,
+      "duration" : 29996
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 0,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 3,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "52400f7982889dc0",
+      "name" : "pendingTest",
+      "title" : "Pending Google search Test",
+      "time" : {
+        "start" : 1544018168181,
+        "stop" : 1544018168188,
+        "duration" : 7
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "4adfc52ef104a685",
+      "name" : "brokenTest",
+      "title" : "Broken Google search Test",
+      "time" : {
+        "start" : 1544018176101,
+        "stop" : 1544018186700,
+        "duration" : 10599
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "40688dedfd9a96ff",
+      "name" : "failingTest",
+      "title" : "Failing Google search Test",
+      "time" : {
+        "start" : 1544018187048,
+        "stop" : 1544018187054,
+        "duration" : 6
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "6909529cb02906c1",
+      "name" : "searchTest",
+      "title" : "Google basic search test",
+      "time" : {
+        "start" : 1544018187418,
+        "stop" : 1544018198177,
+        "duration" : 10759
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  } ]
+}

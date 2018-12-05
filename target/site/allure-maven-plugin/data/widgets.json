@@ -1,0 +1,69 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 4,
+        "passed" : 0,
+        "pending" : 1,
+        "canceled" : 0,
+        "failed" : 3,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1544018168181,
+        "stop" : 1544018198177,
+        "duration" : 29996
+      }
+    },
+    "defects" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "6d8a74e5900c3ee5",
+        "message" : "ElementNotFound: Element not found {wefwfwsdsadf}\nExpected: visible",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "ee77ff45c8e4a51b",
+        "message" : "AssertionError: null",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "ef941fa11c375d4c",
+        "message" : "ElementNotFound: Element not found {h3.r a}\nExpected: text 'Google'",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "7a11752e8fb2079b",
+        "title" : "Surefire suite : Surefire test",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 0,
+          "pending" : 1,
+          "canceled" : 0,
+          "failed" : 3,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Google Search feature",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 0,
+          "pending" : 1,
+          "canceled" : 0,
+          "failed" : 3,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

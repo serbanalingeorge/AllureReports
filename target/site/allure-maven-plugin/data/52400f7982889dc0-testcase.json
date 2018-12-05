@@ -1,0 +1,59 @@
+{
+  "uid" : "52400f7982889dc0",
+  "name" : "pendingTest",
+  "title" : "Pending Google search Test",
+  "time" : {
+    "start" : 1544018168181,
+    "stop" : 1544018168188,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test not implemented yet",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : {
+    "value" : "This is a test that's currently in development",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "7a11752e8fb2079b",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "thread",
+    "value" : "90620@EPESMALW0017.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "EPESMALW0017"
+  }, {
+    "name" : "story",
+    "value" : "Success story"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "Google Search feature"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}
